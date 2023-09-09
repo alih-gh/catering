@@ -1,3 +1,210 @@
-h2{
-    text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+ .header-0 .header{
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    letter-spacing: 4px;
+    
+}
+   .nav-items {
+    float: right;
+    margin-top: 20px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    padding-right: 50px;
+    
+}
+.nav-bar .nav-iteam{
+    float: right;
+}
+ .nav-iteam .nav-item{
+    display: inline-block;
+    padding-top: 20px;
+    letter-spacing: 4px;
+    padding-right: 20px;
+}
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+.nav-bar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav-items a{
+    color: black;
+}
+
+.img-1{
+    margin-top: 20px;
+}
+.banner-card{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    color: gray;
+    font-size: 25px;
+    font-weight: 800;
+}
+.row{
+    margin-top: 80px;
+    height: 600px;
+}
+.row1 .img-box ,.row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row1 .text-box ,.row2 .img-box{
+    float: right;
+    width: 50%;
+}
+.row .img-box{
+    height: 100%;
+}
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.equal-1{
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.equal-2{
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+.equal-4{
+    padding: 20px;
+    line-height: 24px;
+    padding-left: 30px;
+    color: rgba(0, 0, 0, 0.858);
+}
+.equal-5{
+    padding: 20px;
+    line-height: 24px;
+    padding-left: 30px;
+    color: gray;
+}
+.menu{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.menu-equal-1{
+    padding-top: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 50px;
+    letter-spacing: 4px;
+}
+.menu-equal-2{
+    padding-top: 30px;
+    font-size: 12px;
+    padding-left: 50px;
+    color: grey;
+}
+.contact-1{
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+.contact-0{
+    font-size: 30px;
+}
+.contact-2{
+    padding-top: 40px;
+    
+}
+.contact-3{
+    padding-top: 20px;
+    color: cadetblue;
+}
+.contact-4{
+    padding-top: 20px;
+}
+.foam-1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 5px;
+    
+}
+input[type=text]{
+    min-width: 100%;
+    padding: 20px;
+}
+.foam-2{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 5px;
+}
+input[type=number]{
+    min-width: 100%;
+    padding: 20px;
+}
+.foam-3{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding-left: 5px;
+}
+input[type=date]{
+    min-width: 100%;
+    padding: 20px;
+}
+.foam-4{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding-left: 5px;
+}
+.btn{
+    
+    margin-left: 20px;
+    padding: 10px;
+}
+.btn:hover{
+    color: gray;
+}
+.footer-1{
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgba(128, 128, 128, 0.475);
+    padding: 40px;
+}
+.footer-1 a{
+    color: black;
+}
+.footer::after{
+    content: "";
+    display:inline-block;
+    clear: both;
+}
+    
+
