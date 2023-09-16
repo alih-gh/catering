@@ -38,10 +38,7 @@
 }
 .nav-item a:hover{
     color: gray;
-<<<<<<< HEAD
-=======
     border-bottom: 1px solid gray;
->>>>>>> 801b2c97a7edf38383d047919bdb13f76be51545
 }
 
 .nav-bar::after{
